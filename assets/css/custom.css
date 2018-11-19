@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'MV Faseyha';
+    src: url("/assets/fonts/MV_Faseyha.otf"); 
+    src: url("/assets/fonts/MV_Faseyha.otf") format("opentype");
+    font-style: normal;
+}
+
+body,  
+h1, h2, h3, h4, h5, h6,  
+.main-nav a,
+.subscribe-button,
+.page-title,
+.post-meta,
+.read-next-story .post:before,
+.pagination,
+.post-card-excerpt,
+.post-content,
+.site-footer {
+    font-family: "MV Faseyha", sans-serif;
+    direction: rtl;
+}
+
+/* This is necessary to not mess up share icons at bottom of posts */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "casper-icons", "Open Sans", sans-serif;
+}

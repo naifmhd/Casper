@@ -2241,11 +2241,11 @@ Usage (In Ghost editor):
 }
 
 .site-footer-nav a {
-    position: relative;
-    margin-left: 20px;
+    /* position: relative; */
+    margin-right: 20px;
 }
 
-.site-footer-nav a:before {
+/* .site-footer-nav a:after {
     content: "";
     position: absolute;
     top: 11px;
@@ -2257,9 +2257,9 @@ Usage (In Ghost editor):
     border-radius: 100%;
 }
 
-.site-footer-nav a:first-of-type:before {
+.site-footer-nav a:last-of-type:after {
     display: none;
-}
+} */
 
 @media (max-width: 650px) {
     .site-footer-content {
