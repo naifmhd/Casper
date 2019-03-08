@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": ["^postcss", "css", "autoprefixer"],
+      "groupName": "css"
+    },
+    {
+      "packagePatterns": ["gulp"],
+      "groupName": "gulp"
+    }
+  ]
+}
